@@ -27,6 +27,7 @@ public class UserController {
     @RequestMapping("/list")
     public Object list(){
         System.out.print(11111);
+        System.out.print(22222);
         return userService.getUserList();
     }
 }
