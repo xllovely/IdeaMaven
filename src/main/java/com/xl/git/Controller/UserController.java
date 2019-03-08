@@ -26,6 +26,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("/list")
     public Object list(){
+        System.out.print(11111);
         return userService.getUserList();
     }
 }
