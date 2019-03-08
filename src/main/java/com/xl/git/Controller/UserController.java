@@ -28,6 +28,7 @@ public class UserController {
     public Object list(){
         System.out.print(11111);
         System.out.print(22222);
+        System.out.print(3333);
         return userService.getUserList();
     }
 }
